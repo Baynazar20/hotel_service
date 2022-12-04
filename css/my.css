@@ -1,0 +1,139 @@
+.container {
+  width: 100%;
+	height: 50vh;
+	margin-bottom: 5rem;
+}
+
+.container .blog-post .blog-content{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 80%;
+	margin: 1rem 2rem;
+	box-shadow: 5px 8px 10px #8BC34A;
+
+}
+
+.aktaz{
+	background-color: white;
+}
+
+.btngin {
+	border: none;
+	outline: none;
+	background: #6eb627;
+	color: white;
+	font-size: 1.5rem;
+	font-family: Tahoma;
+}
+
+.btngin a{
+	color: white;
+	text-decoration: none;
+}
+
+
+.sidebar #menubar .menu ul li {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.sidebar #menubar .menu ul li  img {
+	width: 25px;
+	height: 25px;
+	margin: .2rem;
+}
+
+
+
+.buttongosmak {
+	position: relative;
+	display: block;
+	line-height: 40px;
+	color: #eee;
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+	
+	border-bottom: 7px solid #BF0303;
+	
+	background: -webkit-linear-gradient(top, #ff3019 0%, #e50404 100%);
+
+	border-radius: 3px;
+	border-bottom-left-radius: 7px 14px;
+	
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, .4);
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.buttongosmak:hover{
+	background: #e50404;
+	background: linear-gradient(top, #e50404 0%, #ff3019 100%);
+	background: -webkit-linear-gradient(top, #e50404 0%, #ff3019 100%);
+}
+
+.buttongosmak:after, .buttongosmak:before,
+.kategoriya:after, .kategoriya:before{
+	content: '';
+	position: absolute;
+}
+
+.buttongosmak:before,
+.kategoriya:before{
+	border: 1px solid rgba(255, 255, 255, .4);
+	border-radius: 3px;
+	border-top: none;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.1)inset;
+}
+
+.buttongosmak:active,
+.kategoriya:active{
+	border: none;
+	bottom: -7px;
+	box-shadow: none;
+	border-radius: 3px;
+}
+
+.buttongosmak:active:before,
+.kategoriya:active:before{
+	border: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2) inset;
+}
+
+
+
+.kategoriya {
+	position: relative;
+	display: block;
+	line-height: 40px;
+	color: #eee;
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+	
+	border-bottom: 7px solid #8bc34a;
+	
+	background: -webkit-linear-gradient(top, #8BC34A 0%, #4CAF50 100%);
+
+	border-radius: 3px;
+	border-bottom-left-radius: 7px 14px;
+	
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, .4);
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.kategoriya:hover{
+	background: #e50404;
+	background: -webkit-linear-gradient(top, #4CAF50 0%, #8BC34A 100%);
+	background: linear-gradient(top, #4CAF50 0%, #8BC34A 100%);	
+}
